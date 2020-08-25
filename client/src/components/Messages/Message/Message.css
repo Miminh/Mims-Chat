@@ -1,0 +1,55 @@
+.admin-message-container {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.message-box-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+.message-container {
+  max-width: 100%;
+  margin: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.current,
+.others {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.current {
+  justify-content: flex-end;
+  margin-left: 10px;
+}
+
+.current .message-container {
+  background-color: rgb(134, 134, 233);
+  color: black;
+}
+
+.others {
+  justify-content: flex-start;
+}
+
+.others .message-container {
+  background-color: rgb(177, 27, 139);
+  color: white;
+}
+
+.admin-message {
+  color: #cccc;
+  margin: 10px;
+}
+
+.user-name {
+  color: #cccc;
+}

@@ -1,0 +1,73 @@
+.join-wrapper {
+  margin: 20vh auto;
+  height: 60vh;
+  width: 40vw;
+  text-align: center;
+  background-color: rgb(137, 200, 255);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.6);
+  animation: top-down 0.6s ease-out;
+}
+
+h1 {
+  margin: 30px 0 40px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+.join-form {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.join-form__info {
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0px auto 20px;
+  font-size: 18px;
+}
+
+.join-form__info:focus {
+  border-inline-style: none;
+}
+
+.join-btn {
+  width: 100%;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.join-btn-btn {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(51, 136, 111);
+  color: white;
+  box-shadow: 0 5px 20px rgb(60, 155, 238);
+  font-size: 20px;
+}
+
+.join-btn-btn:hover {
+  cursor: pointer;
+}
+
+@keyframes top-down {
+  0% {
+    transform: translateY(-200px);
+  }
+
+  80% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
